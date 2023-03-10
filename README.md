@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](/screenshot.png?raw=true)
+![image](https://github.com/JoniShiro/frontend-mentor-results-summary-component-main/blob/master/Screenshot.png)
 
 ### Links
 
