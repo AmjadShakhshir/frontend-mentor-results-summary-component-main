@@ -289,5 +289,9 @@ body {
     margin: 15px 0;
     Width: 288px;
     Height: 56px;
+    cursor: pointer;
+}
+.btn:hover {
+        background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
 }
 /* End Right */
