@@ -6,61 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- CSS Files -->
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
-  integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-  integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <title>Frontend Mentor | Results summary component</title>
 </head>
 
 <body>
   <main>
-    <div class="container">
+    <article class="main-content">
       <section class="left">
-        <h1>Your Result</h1>
-        <div class="result-gradient">
-          <h2>76</h2>
-          <p>of 100</p>
+        <p class="result-title">Your Result</p> 
+        <div class="circle">
+          <h1 class="result-score">76</h1> 
+          <p class="total">of 100</p> 
         </div>
-        <h3>Great</h3>
-        <p>You scored higher than 65% of the people who have taken these tests.</p>
+        <h2 class="result-reaction">Great</h2> 
+        <p class="paragraph">You scored higher than 65% of the people who have taken these tests.</p> 
       </section>
       <section class="right">
-        <h4>Summary</h4>
-        <div class="reaction">
-          <p>Reaction</p>
-          <p>80<span> / 100</span></p>
-        </div>
-        <div class="memory">
-          <p>Memory</p>
-          <p>92<span> / 100</span></p>
-        </div>
-        <div class="verbal">
-          <p>Verbal</p>
-          <p>61<span> / 100</span></p>
-        </div>
-        <div class="visual">
-          <p>Visual</p>
-          <p>72<span> / 100</span></p>
+        <h3 class="summary">Summary</h3>
+        
+        <div class="right-content">
+          <div class="result gradient-red">
+            <p class="title red bolt">Reaction</p> 
+            <p class="score">80</p> 
+          </div>
+          <div class="result gradient-yellow">
+            <p class="title yellow brain">Memory</p> 
+            <p class="score">92</p> 
+          </div>
+          <div class="result gradient-green">
+            <p class="title green comment">Verbal</p> 
+            <p class="score">61</p> 
+          </div>
+          <div class="result gradient-violet">
+            <p class="title violet eye">Visual</p> 
+            <p class="score">72</p> 
+          </div>
         </div>
         <button class="btn">Continue</button>
       </section>
-    </div>
+    </article>
   </main>
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Amjad Shakhshir</a>.
-    </div>
-  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="amjadshakhshir.com">Amjad Shakhshir</a>.
+  </div>
 </body>
 </html>
