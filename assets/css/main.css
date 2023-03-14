@@ -128,7 +128,7 @@ main {
 }
 @media (min-width: 550px){
     body {
-        margin: 150px 0;
+        margin: 130px 0;
         place-items: center;
     }
     .main-content {
@@ -139,7 +139,7 @@ main {
         grid-template-columns: 1fr 1fr;
         border-radius: 32px;
         max-width: 736px;
-        max-height: 512px;
+        height: 512px;
     }
 }
 /* Start left */
@@ -280,7 +280,7 @@ main {
     display: inline-flex;
     padding: 5px 15px;
     content: "";
-    background-image: url("/assets/images/icon-reaction.svg");
+    background-image: url("assets/images/icon-reaction.svg");
     background-repeat: no-repeat;
     height: 20px;
     width: 20px;
@@ -290,7 +290,7 @@ main {
     display: inline-flex;
     padding: 5px 15px;
     content: "";
-    background-image: url("/assets/images/icon-memory.svg");
+    background-image: url("assets/images/icon-memory.svg");
     background-repeat: no-repeat;
     height: 20px;
     width: 20px;
@@ -300,7 +300,7 @@ main {
     display: inline-flex;
     padding: 5px 15px;
     content: "";
-    background-image: url("/assets/images/icon-verbal.svg");
+    background-image: url("assets/images/icon-verbal.svg");
     background-repeat: no-repeat;
     height: 20px;
     width: 20px;
@@ -310,7 +310,7 @@ main {
     display: inline-flex;
     padding: 5px 15px;
     content: "";
-    background-image: url("/assets/images/icon-visual.svg");
+    background-image: url("assets/images/icon-visual.svg");
     background-repeat: no-repeat;
     height: 20px;
     width: 20px;
