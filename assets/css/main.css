@@ -127,7 +127,7 @@ main {
 }
 @media (min-width: 550px){
     body {
-        margin: 130px 0;
+        margin: 120px 0;
         place-items: center;
     }
     .main-content {
