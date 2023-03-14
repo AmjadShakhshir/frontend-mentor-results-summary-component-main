@@ -105,7 +105,7 @@ body {
     display: grid;
     grid-template-rows: 1fr auto;
     font-family: var(--font-family);
-    background-color: var(--neutral-blue);
+    background-color: var(--neutral-white);
 }
 main {
     margin: 0;
@@ -128,7 +128,7 @@ main {
 }
 @media (min-width: 550px){
     body {
-        margin: 50px 0;
+        margin: 150px 0;
         place-items: center;
     }
     .main-content {
