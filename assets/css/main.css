@@ -154,7 +154,7 @@ main {
     border-bottom-right-radius: var(--border-radius);
     padding: var(--content-padding);
 }
-.result-title {
+.section-title {
     font-weight: var(--fw-bold-700);
     font-size: var(--content-font-size);
     line-height: var(--content-line-height);
@@ -200,7 +200,7 @@ main {
         border-radius: var(--border-radius);
         justify-content: space-evenly;
     }
-    .result-title {
+    .section-title {
         font-size: 1.5rem;
         line-height: 1.938rem;
         padding: var(--content-padding);
@@ -232,11 +232,7 @@ main {
     padding: 10px 40px;
 }
 .summary {
-    font-weight: var(--fw-bold-700);
-    font-size: 1.125rem;
-    line-height: 1.466rem;
     color: #303B59;
-    padding: 5px 0 15px;
 }
 .right-content {
     display: grid;
@@ -347,12 +343,6 @@ footer {
     min-height: 50px;
 }
 @media (min-width: 550px){
-    .summary {
-        font-size: 1.5rem;
-        line-height: 1.938rem;
-        margin-top: 10px;
-        padding: 0;
-    }
     .right-content {
         gap: 10px;
     }
