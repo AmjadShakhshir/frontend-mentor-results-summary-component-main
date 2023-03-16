@@ -145,9 +145,7 @@ body {
         display: grid;
         min-height: 100vh;
         place-items: center;
-    }
-    main {
-        margin: 120px 0;
+        padding-top: 170px;
     }
     .main-content {
         --content-font-size: 1.125rem;
