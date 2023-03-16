@@ -212,7 +212,7 @@ body {
 }
 @media (min-width:600px) {
     .left {
-        gap: 25px;
+        gap: 15px;
         border-radius: var(--border-radius);
         justify-content: space-evenly;
     }
