@@ -125,10 +125,6 @@ body {
     grid-template-rows: 1fr auto;
     font-family: var(--font-family);
 }
-main {
-    margin: 0;
-    padding: 0;
-}
 .main-content {
     --content-font-size: 1.125rem;
     --content-line-height: 1.438rem;
@@ -150,16 +146,17 @@ main {
         min-height: 100vh;
         place-items: center;
     }
+    main {
+        margin: 120px 0;
+    }
     .main-content {
         --content-font-size: 1.125rem;
         --content-line-height: 1.438rem;
         --content-padding: 12px;
 
-        margin: 120px 0;
         grid-template-columns: 1fr 1fr;
         border-radius: 32px;
         max-width: 736px;
-        max-height: 512px;
     }
 }
 /* Start left */
@@ -217,7 +214,7 @@ main {
 }
 @media (min-width:600px) {
     .left {
-        gap: 12px;
+        gap: 25px;
         border-radius: var(--border-radius);
         justify-content: space-evenly;
     }
