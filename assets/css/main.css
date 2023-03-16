@@ -145,7 +145,7 @@ body {
         display: grid;
         min-height: 100vh;
         place-items: center;
-        padding-top: 170px;
+        padding-top: 185px;
     }
     .main-content {
         --content-font-size: 1.125rem;
@@ -219,7 +219,8 @@ body {
     .section-title {
         font-size: 1.5rem;
         line-height: 1.938rem;
-        padding: 25px var(--content-padding);
+        padding: 10px var(--content-padding);
+        padding-top: 30px;
     }
     .circle {
         width: 200px;
